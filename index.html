@@ -9,34 +9,33 @@
 </head>
 
 <body>
-    <header>
-        <h1>Welcome to the AI Poem Generator</h1>
-    </header>
-   
-    <main>
-        <form>
-            <input type="text" 
-                placeholder="Enter the topic of the poem" 
-                autofocus 
-                required 
-                autocomplete="off" />
-            <input type="submit" />
-        </form>
-        <div>
-            Roses are red
-            <br />
-            Violets are blue
-        </div>
-    </main>
-
-    <footer>
-        This AI project was coded by <a href="https://github.com/mcramileux" target="_blank">
-            Kristine Ramilo</a>
-        and is <a href="https://github.com/mcramileux/poem-generator" target="_blank">
-            open-sourced on GitHub</a> and is
-        <a href="https://my-shecodes-ai-poem-generator.netlify.app/" target="_blank">
-            hosted on Netlify</a>.
-    </footer>
+    <div class="container">
+        <header>
+            <h1>Welcome to the AI Poem Generator</h1>
+        </header>
+        
+        <main>
+            <form>
+                <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off" />
+                <input type="submit" class="submit-button" />
+            </form>
+            <div class="poem">
+                Roses are red
+                <br />
+                Violets are blue
+            </div>
+        </main>
+        
+        <footer>
+            This AI project was coded by <a href="https://github.com/mcramileux" target="_blank">
+                Kristine Ramilo</a>
+            and is <a href="https://github.com/mcramileux/poem-generator" target="_blank">
+                open-sourced on GitHub</a> and is
+            <a href="https://my-shecodes-ai-poem-generator.netlify.app/" target="_blank">
+                hosted on Netlify</a>.
+        </footer>
+    </div>
+    
     <script src="src/index.js"></script>
 </body>
 
